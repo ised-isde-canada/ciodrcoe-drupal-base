@@ -101,6 +101,8 @@
         },
         "patches": {
             "drupal/core": {
+                "Big pipe patch":
+                "https://www.drupal.org/files/issues/2021-01-24/3194462.patch",
                 "Node previews are cached by dynamic page cache":
                 "https://www.drupal.org/files/issues/2020-04-13/d8_node_preview.patch",
                 "file usage bug fixes":
@@ -154,7 +156,7 @@
             },
             "drupal/linkit": {
                 "Detect and strip base URL from pasted URLs to increase matching hits":
-                "https://www.drupal.org/files/issues/2021-01-14/3078075-22.patch"
+                "https://www.drupal.org/files/issues/2021-01-25/3078075-24_0.patch"
             },
             "drupal/lightning_media": {
                 "Bulk media upload should have an option to select the target media entity bundle":
