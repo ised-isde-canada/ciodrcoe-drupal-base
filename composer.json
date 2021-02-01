@@ -108,7 +108,7 @@
                 "file usage bug fixes":
                 "https://www.drupal.org/files/issues/2020-04-03/2810355-64.patch",
                 "core views module fix for breadcrumb title and page title":
-                "https://www.drupal.org/files/issues/2020-08-06/2716019-99-d88x.patch",
+                "https://www.drupal.org/files/issues/2020-10-13/D8.9-views_titles_in_breadcrumb_and_metatag-2716019-120.patch",
                 "Improve wysiwyg entity embed media dialog add label to media hyperlinked to media":
                 "https://www.drupal.org/files/issues/2020-11-11/D9-add_label_and_link_to_EditorMediaDialog-3182027-6.patch",
                 "core views module fix for contextual filter":
@@ -122,13 +122,11 @@
                 "remove hreflang attribute from language switcher li element":
                 "https://www.drupal.org/files/issues/2019-06-05/2454289-82.patch",
                 "Node preview block visibility":
-                "https://www.drupal.org/files/issues/2020-06-30/D888-preview_block-2890758-50.patch",
+                "https://www.drupal.org/files/issues/2020-09-29/D896-preview_block-2890758-81.patch",
                 "Node preview current language":
                 "https://www.drupal.org/files/issues/2020-06-20/node-preview_current_language-3150728-12.patch",
                 "Language negotiation core fix, needed by access_unpublished and content moderation for forward draft revisions in non default language.":
                 "https://www.drupal.org/files/issues/2019-05-30/drupal-2951294-21-fix-fallback.patch",
-                "Harden SubProcess process plugin - Please remove this patch prior to upgrading to Drupal 8.9.x or Drupal 9.x.":
-                "https://www.drupal.org/files/issues/2020-07-15/3126063-30.patch",
                 "Options module uses '_none' as a special value.":
                 "https://www.drupal.org/files/issues/2020-08-25/1585930-56.patch"
             },
@@ -183,8 +181,6 @@
                  "https://www.drupal.org/files/issues/2020-01-04/2906445-token-entity-reference-returns-default-language-5.patch"
             },
             "drupal/scanner": {
-                "Support field translations for search and replace and other fixes.":
-                "https://www.drupal.org/files/issues/2020-08-19/scanner-handle_languages_for_fields-3154633-10.patch",
                 "Allow creator role to use the search and replace functionality.":
                 "https://www.drupal.org/files/issues/2020-06-22/scanner-grant_without_administer_nodes-3153873-2.patch"
             },
@@ -276,7 +272,7 @@
         "drupal/git_status": "^1.0",
         "drupal/ultimate_cron": "^2.0@alpha",
         "drupal/workflow": "^1.4",
-        "drupalwxt/wxt": "dev-8.x-3.x",
+        "drupalwxt/wxt": "3.0.19",
         "drush/drush": "^10.0",
         "psr/container": "^1.0",
         "scssphp/scssphp": "^1.1",
