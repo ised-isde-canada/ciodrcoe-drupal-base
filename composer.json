@@ -154,7 +154,7 @@
             },
             "drupal/linkit": {
                 "Detect and strip base URL from pasted URLs to increase matching hits":
-                "https://www.drupal.org/files/issues/2021-01-25/3078075-24_0.patch"
+                "https://www.drupal.org/files/issues/2021-02-02/3078075-26.patch"
             },
             "drupal/lightning_media": {
                 "Bulk media upload should have an option to select the target media entity bundle":
