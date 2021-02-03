@@ -14856,16 +14856,16 @@
         },
         {
             "name": "ised-isde/remote-manage",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/remote-manage.git",
-                "reference": "4791f2d3e9bb569d691635a9a27c43ebe41278d5"
+                "reference": "224875e357645f8e1e6336e877db72f1fc66ff2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/4791f2d3e9bb569d691635a9a27c43ebe41278d5",
-                "reference": "4791f2d3e9bb569d691635a9a27c43ebe41278d5",
+                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/224875e357645f8e1e6336e877db72f1fc66ff2d",
+                "reference": "224875e357645f8e1e6336e877db72f1fc66ff2d",
                 "shasum": ""
             },
             "require": {
@@ -14884,12 +14884,12 @@
             "license": [
                 "GPL-2.0+"
             ],
-            "description": "Remote Management",
+            "description": "Remote Site Management",
             "support": {
                 "issues": "https://github.com/ised-isde-canada/remote-manage/issues",
-                "source": "https://github.com/ised-isde-canada/remote-manage/tree/1.0.3"
+                "source": "https://github.com/ised-isde-canada/remote-manage/tree/1.0.4"
             },
-            "time": "2020-09-30T16:48:44+00:00"
+            "time": "2021-02-03T17:36:37+00:00"
         },
         {
             "name": "j7mbo/twitter-api-php",
