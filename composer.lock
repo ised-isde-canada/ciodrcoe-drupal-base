@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d23761560d5888e8327d3f0ab4992370",
+    "content-hash": "8199c8d34c8870d6ebc59dd684d2e1d5",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -260,16 +260,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.172.4",
+            "version": "3.173.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "506e60798bb7d13bdafadce9727ab9cc9ac987b0"
+                "reference": "45a5150c35ab4ee5e4eb05332179a094476d1dd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/506e60798bb7d13bdafadce9727ab9cc9ac987b0",
-                "reference": "506e60798bb7d13bdafadce9727ab9cc9ac987b0",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/45a5150c35ab4ee5e4eb05332179a094476d1dd5",
+                "reference": "45a5150c35ab4ee5e4eb05332179a094476d1dd5",
                 "shasum": ""
             },
             "require": {
@@ -344,16 +344,16 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.172.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.5"
             },
-            "time": "2021-01-29T19:17:51+00:00"
+            "time": "2021-02-08T19:13:12+00:00"
         },
         {
             "name": "bower-asset/cropper",
             "version": "v2.3.4",
             "source": {
                 "type": "git",
-                "url": "git@github.com:fengyuanchen/cropper.git",
+                "url": "https://github.com/fengyuanchen/cropper.git",
                 "reference": "30c58b29ee21010e17e58ebab165fbd84285c685"
             },
             "dist": {
@@ -365,21 +365,6 @@
             "license": [
                 "MIT"
             ]
-        },
-        {
-            "name": "bower-asset/dropzone",
-            "version": "v5.7.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:enyo/dropzone.git",
-                "reference": "78424e9c97b569e698cc9175e9bc424168219162"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/enyo/dropzone/zipball/78424e9c97b569e698cc9175e9bc424168219162",
-                "reference": "78424e9c97b569e698cc9175e9bc424168219162"
-            },
-            "type": "bower-asset"
         },
         {
             "name": "bower-asset/jquery",
@@ -422,21 +407,22 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.10",
+            "version": "v0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "4c142a511a1140075da0ba8a5a90434aa12dfe02"
+                "reference": "6bc1c4ad59587027b09bf50c0e086b0f45d86c86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/4c142a511a1140075da0ba8a5a90434aa12dfe02",
-                "reference": "4c142a511a1140075da0ba8a5a90434aa12dfe02",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/6bc1c4ad59587027b09bf50c0e086b0f45d86c86",
+                "reference": "6bc1c4ad59587027b09bf50c0e086b0f45d86c86",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
+                "ext-mbstring": "*",
                 "ezyang/htmlpurifier": "^4.7",
-                "kub-at/php-simple-html-dom-parser": "^1.7",
                 "php": ">=7.3"
             },
             "require-dev": {
@@ -476,9 +462,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caxy/php-htmldiff/issues",
-                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.10"
+                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.11"
             },
-            "time": "2021-01-05T11:13:56+00:00"
+            "time": "2021-02-02T11:07:36+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -5171,7 +5157,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.1.3",
+            "version": "9.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -5215,7 +5201,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.1.3"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.1.4"
             },
             "time": "2020-08-07T22:30:13+00:00"
         },
@@ -5335,27 +5321,31 @@
         },
         {
             "name": "drupal/csv_serialization",
-            "version": "1.4.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/csv_serialization.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/csv_serialization-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "74cfc47c5c8a907f40112ec4819fe108f2775ef1"
+                "url": "https://ftp.drupal.org/files/projects/csv_serialization-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "3531383a6926a4ed761be56553997c2a937449ac"
             },
             "require": {
-                "drupal/core": "^8.0.4",
-                "league/csv": "^8.0"
+                "drupal/core": "^8 || ^9",
+                "league/csv": "^9.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "drupal/coder": "^8.3"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1531841921",
+                    "version": "8.x-2.0",
+                    "datestamp": "1612801962",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5364,18 +5354,19 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
-                    "name": "grasmash",
+                    "name": "Matthew Grasmick",
                     "homepage": "https://www.drupal.org/user/455714"
                 }
             ],
             "description": "Provides CSV as a serialization format.",
             "homepage": "https://www.drupal.org/project/csv_serialization",
             "support": {
-                "source": "https://git.drupalcode.org/project/csv_serialization"
+                "source": "http://cgit.drupalcode.org/csv_serialization",
+                "issues": "https://www.drupal.org/project/issues/csv_serialization"
             }
         },
         {
@@ -8734,21 +8725,20 @@
         },
         {
             "name": "drupal/lightning_media",
-            "version": "3.20.0",
+            "version": "3.21.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/lightning_media.git",
-                "reference": "8.x-3.20"
+                "reference": "8.x-3.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/lightning_media-8.x-3.20.zip",
-                "reference": "8.x-3.20",
-                "shasum": "ce1b51f8a60b924382800598b4ff90ae4680936c"
+                "url": "https://ftp.drupal.org/files/projects/lightning_media-8.x-3.21.zip",
+                "reference": "8.x-3.21",
+                "shasum": "f8fb5f0265b96bdfbaf325f8f9a66aede101be68"
             },
             "require": {
                 "bower-asset/cropper": "^2.3",
-                "bower-asset/dropzone": "^5.1",
                 "bower-asset/slick-carousel": "^1.8",
                 "drupal/core": "^8.6.18",
                 "drupal/crop": "^2.0.0-rc1",
@@ -8766,6 +8756,7 @@
                 "drupal/slick_entityreference": "^2.0",
                 "drupal/video_embed_field": "^2.0",
                 "drupal/views_infinite_scroll": "^1.6",
+                "npm-asset/dropzone": "^5.7.4",
                 "oomphinc/composer-installers-extender": "^1.1 || ^2",
                 "vardot/blazy": "^1.8"
             },
@@ -8788,8 +8779,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.20",
-                    "datestamp": "1611678912",
+                    "version": "8.x-3.21",
+                    "datestamp": "1612802617",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8857,7 +8848,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "scripts": {
-                "post-update-cmd": [
+                "post-install-cmd": [
                     "@putenv DIR=./docroot/modules/lightning_media",
                     "mkdir -p $DIR",
                     "ln -s -f $PWD/config $DIR",
@@ -11294,12 +11285,20 @@
                     "homepage": "https://www.drupal.org/u/jansete"
                 },
                 {
+                    "name": "cmlara",
+                    "homepage": "https://www.drupal.org/user/1790054"
+                },
+                {
                     "name": "jansete",
                     "homepage": "https://www.drupal.org/user/1358146"
                 },
                 {
                     "name": "naveenvalecha",
                     "homepage": "https://www.drupal.org/user/2665733"
+                },
+                {
+                    "name": "ram4nd",
+                    "homepage": "https://www.drupal.org/user/601534"
                 }
             ],
             "description": "Adds an Amazon Simple Storage Service-based remote file system to Drupal.",
@@ -13032,17 +13031,17 @@
         },
         {
             "name": "drupal/webform",
-            "version": "5.23.0",
+            "version": "5.24.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform.git",
-                "reference": "8.x-5.23"
+                "reference": "8.x-5.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.23.zip",
-                "reference": "8.x-5.23",
-                "shasum": "5d93f2479ac0b69b0eb5b3921d8173a7b3a3a7e5"
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.24.zip",
+                "reference": "8.x-5.24",
+                "shasum": "d7e2d856e840bf7b7ff0b06f80be1f492fe65b7b"
             },
             "require": {
                 "drupal/core": "^8.8"
@@ -13083,8 +13082,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-5.23",
-                    "datestamp": "1608855643",
+                    "version": "8.x-5.24",
+                    "datestamp": "1612453175",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13218,7 +13217,7 @@
         },
         {
             "name": "drupal/webform_node",
-            "version": "6.0.0",
+            "version": "6.0.1",
             "require": {
                 "drupal/core": "^8.8 || ^9",
                 "drupal/webform": "*"
@@ -13226,8 +13225,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "6.0.0",
-                    "datestamp": "1608855845",
+                    "version": "6.0.1",
+                    "datestamp": "1612453373",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -14274,16 +14273,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.17",
+            "version": "8.12.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "d914436bd646e9d645e7f8ac6644bf7e33a023d4"
+                "reference": "2d50e0aea1f70508b39a3d22c62d24d66d532ed2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/d914436bd646e9d645e7f8ac6644bf7e33a023d4",
-                "reference": "d914436bd646e9d645e7f8ac6644bf7e33a023d4",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/2d50e0aea1f70508b39a3d22c62d24d66d532ed2",
+                "reference": "2d50e0aea1f70508b39a3d22c62d24d66d532ed2",
                 "shasum": ""
             },
             "require": {
@@ -14343,7 +14342,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2021-01-27T19:06:58+00:00"
+            "time": "2021-02-08T10:31:32+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -14856,16 +14855,16 @@
         },
         {
             "name": "ised-isde/remote-manage",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/remote-manage.git",
-                "reference": "224875e357645f8e1e6336e877db72f1fc66ff2d"
+                "reference": "2b1a7dd971f78ac4e0ba623c9bbdc585f1cd7975"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/224875e357645f8e1e6336e877db72f1fc66ff2d",
-                "reference": "224875e357645f8e1e6336e877db72f1fc66ff2d",
+                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/2b1a7dd971f78ac4e0ba623c9bbdc585f1cd7975",
+                "reference": "2b1a7dd971f78ac4e0ba623c9bbdc585f1cd7975",
                 "shasum": ""
             },
             "require": {
@@ -14887,9 +14886,9 @@
             "description": "Remote Site Management",
             "support": {
                 "issues": "https://github.com/ised-isde-canada/remote-manage/issues",
-                "source": "https://github.com/ised-isde-canada/remote-manage/tree/1.0.4"
+                "source": "https://github.com/ised-isde-canada/remote-manage/tree/1.0.5"
             },
-            "time": "2021-02-03T17:36:37+00:00"
+            "time": "2021-02-08T21:30:39+00:00"
         },
         {
             "name": "j7mbo/twitter-api-php",
@@ -15018,56 +15017,6 @@
                 "source": "https://github.com/kint-php/kint/tree/master"
             },
             "time": "2019-10-17T18:05:24+00:00"
-        },
-        {
-            "name": "kub-at/php-simple-html-dom-parser",
-            "version": "1.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Kub-AT/php-simple-html-dom-parser.git",
-                "reference": "ff22f98bfd9235115c128059076f3eb740d66913"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Kub-AT/php-simple-html-dom-parser/zipball/ff22f98bfd9235115c128059076f3eb740d66913",
-                "reference": "ff22f98bfd9235115c128059076f3eb740d66913",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "KubAT\\PhpSimple\\HtmlDomParser": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "S.C. Chen",
-                    "email": "me578022@gmail.com"
-                },
-                {
-                    "name": "Jakub Stawowy",
-                    "email": "Kub-AT@users.noreply.github.com"
-                }
-            ],
-            "description": "PHP Simple HTML DOM Parser with namespace and PHP 7.3 compatible",
-            "homepage": "http://simplehtmldom.sourceforge.net/",
-            "keywords": [
-                "Simple",
-                "dom",
-                "html"
-            ],
-            "support": {
-                "issues": "https://github.com/Kub-AT/php-simple-html-dom-parser/issues",
-                "source": "https://github.com/Kub-AT/php-simple-html-dom-parser/tree/master"
-            },
-            "time": "2019-10-25T12:34:43+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -15561,36 +15510,49 @@
         },
         {
             "name": "league/csv",
-            "version": "8.2.3",
+            "version": "9.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "d2aab1e7bde802582c3879acf03d92716577c76d"
+                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/d2aab1e7bde802582c3879acf03d92716577c76d",
-                "reference": "d2aab1e7bde802582c3879acf03d92716577c76d",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f28da6e483bf979bac10e2add384c90ae9983e4e",
+                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=5.5.0"
+                "php": ">=7.2.5"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^1.9",
-                "phpunit/phpunit": "^4.0"
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpstan/phpstan": "^0.12.0",
+                "phpstan/phpstan-phpunit": "^0.12.0",
+                "phpstan/phpstan-strict-rules": "^0.12.0",
+                "phpunit/phpunit": "^8.5"
+            },
+            "suggest": {
+                "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
+                "ext-iconv": "Needed to ease transcoding CSV using iconv stream filters"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "8.2-dev"
+                    "dev-master": "9.x-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "League\\Csv\\": "src"
-                }
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -15604,22 +15566,31 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Csv data manipulation made easy in PHP",
+            "description": "CSV data manipulation made easy in PHP",
             "homepage": "http://csv.thephpleague.com",
             "keywords": [
+                "convert",
                 "csv",
                 "export",
                 "filter",
                 "import",
                 "read",
+                "transform",
                 "write"
             ],
             "support": {
-                "forum": "https://groups.google.com/forum/#!forum/thephpleague",
+                "docs": "https://csv.thephpleague.com",
                 "issues": "https://github.com/thephpleague/csv/issues",
-                "source": "https://github.com/thephpleague/csv/tree/8.x"
+                "rss": "https://github.com/thephpleague/csv/releases.atom",
+                "source": "https://github.com/thephpleague/csv"
             },
-            "time": "2018-02-06T08:27:03+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/nyamsprod",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-12-10T19:40:30+00:00"
         },
         {
             "name": "league/event",
@@ -16103,6 +16074,18 @@
                 "source": "https://github.com/nodespark/des-connector"
             },
             "time": "2017-01-21T16:15:15+00:00"
+        },
+        {
+            "name": "npm-asset/dropzone",
+            "version": "5.7.4",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.7.4.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -17349,16 +17332,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.41.1",
+            "version": "v3.42.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "4be20654c612b09863e7952ad9a572583e55d0b7"
+                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/4be20654c612b09863e7952ad9a572583e55d0b7",
-                "reference": "4be20654c612b09863e7952ad9a572583e55d0b7",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/2a3afb84402e108f7c426fc7a6873b9e063e05c6",
+                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6",
                 "shasum": ""
             },
             "type": "library",
@@ -17404,9 +17387,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.41.1"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.42.0"
             },
-            "time": "2021-01-28T19:56:37+00:00"
+            "time": "2021-02-04T18:21:00+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -20416,25 +20399,26 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.7.1",
+            "version": "v4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd"
+                "reference": "2391482cd003dfdc36b679b27e9f5326bd656acd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
-                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/2391482cd003dfdc36b679b27e9f5326bd656acd",
+                "reference": "2391482cd003dfdc36b679b27e9f5326bd656acd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": "~7.2|~8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.7|~6|~7",
-                "symfony/phpunit-bridge": "~2.7|~3|~4",
-                "symfony/yaml": "~2.3|~3|~4"
+                "cucumber/cucumber": "dev-gherkin-16.0.0",
+                "phpunit/phpunit": "~8|~9",
+                "symfony/phpunit-bridge": "~3|~4|~5",
+                "symfony/yaml": "~3|~4|~5"
             },
             "suggest": {
                 "symfony/yaml": "If you want to parse features, represented in YAML files"
@@ -20473,9 +20457,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/v4.7.1"
+                "source": "https://github.com/Behat/Gherkin/tree/v4.8.0"
             },
-            "time": "2021-01-26T16:24:32+00:00"
+            "time": "2021-02-04T12:44:21+00:00"
         },
         {
             "name": "behat/mink",
