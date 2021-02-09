@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8199c8d34c8870d6ebc59dd684d2e1d5",
+    "content-hash": "61aafa3d851b7a27bc316fc1c643b60d",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -14855,21 +14855,22 @@
         },
         {
             "name": "ised-isde/remote-manage",
-            "version": "1.0.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/remote-manage.git",
-                "reference": "2b1a7dd971f78ac4e0ba623c9bbdc585f1cd7975"
+                "reference": "f2bbfc7758972dd07e1c5ea4ca5c300baf2ca1de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/2b1a7dd971f78ac4e0ba623c9bbdc585f1cd7975",
-                "reference": "2b1a7dd971f78ac4e0ba623c9bbdc585f1cd7975",
+                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/f2bbfc7758972dd07e1c5ea4ca5c300baf2ca1de",
+                "reference": "f2bbfc7758972dd07e1c5ea4ca5c300baf2ca1de",
                 "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "^3.155"
             },
+            "default-branch": true,
             "bin": [
                 "manage"
             ],
@@ -14886,9 +14887,9 @@
             "description": "Remote Site Management",
             "support": {
                 "issues": "https://github.com/ised-isde-canada/remote-manage/issues",
-                "source": "https://github.com/ised-isde-canada/remote-manage/tree/1.0.5"
+                "source": "https://github.com/ised-isde-canada/remote-manage/tree/master"
             },
-            "time": "2021-02-08T21:30:39+00:00"
+            "time": "2021-02-09T12:19:27+00:00"
         },
         {
             "name": "j7mbo/twitter-api-php",
@@ -23672,6 +23673,7 @@
         "drupal/smtp": 20,
         "drupal/ultimate_cron": 15,
         "drupal/openid_connect": 5,
+        "ised-isde/remote-manage": 20,
         "nodespark/des-connector": 20,
         "phpmd/phpmd": 0
     },

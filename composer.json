@@ -282,7 +282,7 @@
         "drupal/mailsystem": "^4.3",
         "drupal/openid_connect": "^1.0@RC",
         "drupal/phpmailer_smtp": "^2.0",
-        "ised-isde/remote-manage": "^1.0.5",
+        "ised-isde/remote-manage": "dev-master",
         "lusitanian/oauth": "^0.8.11",
         "nodespark/des-connector": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1 || ^2",
