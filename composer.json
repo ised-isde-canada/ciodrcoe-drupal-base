@@ -191,6 +191,8 @@
                 "https://www.drupal.org/files/issues/2021-01-08/1875456-82.patch"
             },
             "drupal/wxt_bootstrap": {
+                "fix report problem markup":
+                "https://www.drupal.org/files/issues/2021-01-22/fix-report-problem-markup-3194287-3.patch",
                 "Provide an out of the box gcweb footer solution":
                 "https://www.drupal.org/files/issues/2021-01-27/wxt-bootstrap-add-canada-ca-footer-settings-3195014-2.patch",
                 "W3C - make image twig output empty ALT attribute when no ALT text is provided":
@@ -199,6 +201,10 @@
                 "https://www.drupal.org/files/issues/2020-10-16/wcag-add-roles-to-all-menu-ul-li-ahref-link-3164631-17.patch",
                 "WCAG - unnecessary roles.":
                 "https://www.drupal.org/files/issues/2020-12-17/wxt_bootstrap-w3c_warnings_unnecessary_roles-3154001-11.patch"
+            },
+            "drupalwxt/wxt": {
+                "wxt-ext-webform-config change related to wxt_bootstrap report an issue markup fix":
+                "https://www.drupal.org/files/issues/2021-01-22/wxt-ext-webform-config-change-3194287-3.patch"
             },
             "drupal/wxt_library": {
                 "Provide an out of the box gcweb footer solution":

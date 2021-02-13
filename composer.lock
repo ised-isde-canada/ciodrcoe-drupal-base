@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e58d328a332bbe9e82d7c8e0e677d3a",
+    "content-hash": "783d518b0f6b50755c3126de820f73b1",
     "packages": [
         {
             "name": "acquia/lightning",
@@ -260,16 +260,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.5",
+            "version": "3.173.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "45a5150c35ab4ee5e4eb05332179a094476d1dd5"
+                "reference": "e6d08cdc8206af55dd7bbb967a0350b41263018c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/45a5150c35ab4ee5e4eb05332179a094476d1dd5",
-                "reference": "45a5150c35ab4ee5e4eb05332179a094476d1dd5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e6d08cdc8206af55dd7bbb967a0350b41263018c",
+                "reference": "e6d08cdc8206af55dd7bbb967a0350b41263018c",
                 "shasum": ""
             },
             "require": {
@@ -344,9 +344,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.8"
             },
-            "time": "2021-02-08T19:13:12+00:00"
+            "time": "2021-02-12T19:15:02+00:00"
         },
         {
             "name": "bower-asset/cropper",
@@ -14859,12 +14859,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ised-isde-canada/remote-manage.git",
-                "reference": "f2bbfc7758972dd07e1c5ea4ca5c300baf2ca1de"
+                "reference": "fed6ae8f8785a3f11ea7fcc52e307c095d1c0a1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/f2bbfc7758972dd07e1c5ea4ca5c300baf2ca1de",
-                "reference": "f2bbfc7758972dd07e1c5ea4ca5c300baf2ca1de",
+                "url": "https://api.github.com/repos/ised-isde-canada/remote-manage/zipball/fed6ae8f8785a3f11ea7fcc52e307c095d1c0a1d",
+                "reference": "fed6ae8f8785a3f11ea7fcc52e307c095d1c0a1d",
                 "shasum": ""
             },
             "require": {
@@ -14889,7 +14889,7 @@
                 "issues": "https://github.com/ised-isde-canada/remote-manage/issues",
                 "source": "https://github.com/ised-isde-canada/remote-manage/tree/master"
             },
-            "time": "2021-02-09T12:19:27+00:00"
+            "time": "2021-02-12T14:22:50+00:00"
         },
         {
             "name": "j7mbo/twitter-api-php",
@@ -15365,16 +15365,16 @@
         },
         {
             "name": "lcobucci/jwt",
-            "version": "3.4.3",
+            "version": "3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/jwt.git",
-                "reference": "cd83b5421df3dbbbc66bd07a5b970c9efb6371b9"
+                "reference": "ff92156cd27d3abe7fc8814516ae0615215f01ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/cd83b5421df3dbbbc66bd07a5b970c9efb6371b9",
-                "reference": "cd83b5421df3dbbbc66bd07a5b970c9efb6371b9",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/ff92156cd27d3abe7fc8814516ae0615215f01ae",
+                "reference": "ff92156cd27d3abe7fc8814516ae0615215f01ae",
                 "shasum": ""
             },
             "require": {
@@ -15426,7 +15426,7 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
-                "source": "https://github.com/lcobucci/jwt/tree/3.4.3"
+                "source": "https://github.com/lcobucci/jwt/tree/3.4.4"
             },
             "funding": [
                 {
@@ -15438,7 +15438,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-01-27T23:38:30+00:00"
+            "time": "2021-02-10T11:08:20+00:00"
         },
         {
             "name": "league/container",
@@ -16078,10 +16078,10 @@
         },
         {
             "name": "npm-asset/dropzone",
-            "version": "5.7.4",
+            "version": "5.7.6",
             "dist": {
                 "type": "tar",
-                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.7.4.tgz"
+                "url": "https://registry.npmjs.org/dropzone/-/dropzone-5.7.6.tgz"
             },
             "type": "npm-asset",
             "license": [
@@ -17333,16 +17333,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v3.42.0",
+            "version": "v3.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6"
+                "reference": "973e4614f83e2b2b6a48202cc3e1bd0661d31c8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/2a3afb84402e108f7c426fc7a6873b9e063e05c6",
-                "reference": "2a3afb84402e108f7c426fc7a6873b9e063e05c6",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/973e4614f83e2b2b6a48202cc3e1bd0661d31c8f",
+                "reference": "973e4614f83e2b2b6a48202cc3e1bd0661d31c8f",
                 "shasum": ""
             },
             "type": "library",
@@ -17388,9 +17388,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.42.0"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v3.43.0"
             },
-            "time": "2021-02-04T18:21:00+00:00"
+            "time": "2021-02-11T18:53:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
