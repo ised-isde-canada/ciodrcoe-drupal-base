@@ -298,6 +298,7 @@
         "lusitanian/oauth": "^0.8.11",
         "nodespark/des-connector": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1 || ^2",
-        "phpmailer/phpmailer": "^6.1"
+        "phpmailer/phpmailer": "^6.1",
+        "drupal/sansdesordre": "^1.0@beta"
     }
 }
