@@ -190,6 +190,10 @@
                 "Save to predictable folder":
                 "https://www.drupal.org/files/issues/2021-01-08/1875456-82.patch"
             },
+            "drupal/pathauto": {
+                "Prevent duplicate aliases between revisions.":
+                 "https://www.drupal.org/files/issues/2020-01-17/pathauto-3107144-2.patch"
+            },
             "drupal/wxt_bootstrap": {
                 "fix report problem markup":
                 "https://www.drupal.org/files/issues/2021-01-22/fix-report-problem-markup-3194287-3.patch",
