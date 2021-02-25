@@ -255,7 +255,7 @@
         "drupal/devel_entity_updates": "^3.0",
         "drupal/devel_kint_extras": "^1.0",
         "drupal/dynamic_entity_reference": "^2.0@alpha",
-        "drupal/entity_translation_unified_form": "^1.0",
+        "drupal/entity_translation_unified_form": "^1.0-beta11",
         "drupal/entityqueue": "^1.0",
         "drupal/file_delete": "^1.0",
         "drupal/filehash": "^1.4",
