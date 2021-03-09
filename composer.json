@@ -131,6 +131,8 @@
                 "https://www.drupal.org/files/issues/2020-08-25/1585930-56.patch"
             },
             "drupal/access_unpublished": {
+                "require once access_unpublished.tokens.inc instead of load include.":
+                "https://www.drupal.org/files/issues/2020-02-27/access_unpublished-module_load_include_undefined-3116448-2.patch",
                 "Adds a twig extension for access unpublished hash key link, patch 9.":
                 "https://www.drupal.org/files/issues/2019-11-21/access_unpublished-3054536-9.patch",
                 "Fix token-create while editing a French node":
